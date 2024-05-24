@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM class 2</title>
+
+    <!-- 
+        - CSS LINK
+     -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+        - FONT AWESOME CDN
+     -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-container">
+        <a href="#">
+          <span>Mini Blog</span>
+        </a>
+
+        <span class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+
+      <nav>
+        <span class="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+
+        <ul>
+          <li>
+            <a href="#">Home </a>
+          </li>
+          <li>
+            <a href="#">Politics</a>
+          </li>
+          <li>
+            <a href="#">Tech</a>
+          </li>
+          <li>
+            <a href="#">Entertainment</a>
+          </li>
+          <li>
+            <a href="#">Travel</a>
+          </li>
+          <li>
+            <a href="#">Sports</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="overlay hidden"></div>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <a href="#" class="hero-link grid-1">
+            <h2>The AI magically removes moving objects from videos</h2>
+            <span>May 15, 2024</span>
+          </a>
+          <a href="#" class="hero-link grid-2">
+            <div class="category">
+              <span>Travel</span>
+              <span>Food</span>
+            </div>
+            <h2>The AI magically removes moving objects from videos</h2>
+            <span>May 15, 2024</span>
+          </a>
+          <a href="#" class="hero-link grid-3">
+            <h2>The AI magically removes moving objects from videos</h2>
+            <span>May 15, 2024</span>
+          </a>
+          <a href="#" class="hero-link grid-4">
+            <h2>The 20 Biggest Fintech Companies in Nigeria 2024</h2>
+            <span>May 15, 2024</span>
+          </a>
+          <a href="#" class="hero-link grid-5">
+            <h2>The AI magically removes moving objects from videos</h2>
+            <span>May 15, 2024</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./2-dom.js"></script>
+  </body>
+</html>
